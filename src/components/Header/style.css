@@ -1,0 +1,12 @@
+.ds-header-container {
+    width: 100%;
+    height: 70px;
+    background-color: var(--ds-color-bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ds-header-container h1 {
+    color: var(--ds-color-font-primary);
+}

@@ -1,0 +1,33 @@
+.ds-catalog-main-page {
+    width: 100%;
+    padding: 25px 20px;
+}
+
+.ds-catalog-main-page h2{
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--ds-color-font-secundary);
+    font-size: 20px;
+}
+
+.ds-catalog-card-container {
+    display: grid;
+    grid-gap: 25px;
+}
+
+.ds-comments-main-page {
+    padding: 25px 20px;
+    background-color: var(--ds-color-bg-secundary);
+}
+
+.ds-comments-main-page h2 {
+    color: var(--ds-color-font-secundary);
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.ds-comments-card-container {
+    display: grid;
+    grid-gap: 25px;
+}

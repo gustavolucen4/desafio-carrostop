@@ -1,0 +1,11 @@
+.ds-comments-card {
+    background-color: var(--ds-color-bg-terciary);
+    border: 1px solid var(--ds-color-bg-primary);
+    border-radius: 12px;
+    padding: 25px 20px;
+}
+
+.ds-comments-card p {
+    color: var(--ds-color-font-terciary);
+    font-size: 16px;
+}

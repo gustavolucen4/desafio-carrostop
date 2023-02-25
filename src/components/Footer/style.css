@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    background-color: var(--ds-color-bg-primary);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 20px;
+}
+
+footer a, p{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--ds-color-bg-terciary);
+    font-size: 16px;
+}
+
+footer a{
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-style: italic;
+}
