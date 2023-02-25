@@ -4,8 +4,10 @@ export default function Footer() {
 
     return (
         <footer>
-            <a href="#">@dscarrostop</a>
-            <p>Rua da Pipoca, 150</p>
+            <div className='ds-container ds-container-footer'>
+                <a href="#">@dscarrostop</a>
+                <p>Rua da Pipoca, 150</p>
+            </div>
         </footer>
     );
 }

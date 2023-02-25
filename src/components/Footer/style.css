@@ -2,23 +2,39 @@ footer {
     width: 100%;
     background-color: var(--ds-color-bg-primary);
     height: 120px;
+}
+
+.ds-container-footer {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 34px 20px;
 }
 
-footer a, p{
+.ds-container-footer a, p{
     text-decoration: none;
     cursor: pointer;
     color: var(--ds-color-bg-terciary);
     font-size: 16px;
 }
 
-footer a{
+.ds-container-footer a{
     margin-bottom: 10px;
 }
 
-footer p{
+.ds-container-footer p{
     font-style: italic;
+}
+
+@media (min-width:576px) {
+    .ds-container-footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ds-container-footer a{
+        margin-bottom: 0;
+    }
 }
